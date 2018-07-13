@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.ilivesdk:ilivesdk-1.8.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/mobilepb.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/soload.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/tls_sdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/bugly_2.4.0_imsdk_release.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/beacon_android_v1.9.9.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/imsdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/qalsdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/qavsdk.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/screenRecord.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/wup-1.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ilivesdk-1.8.5.aar/0442820f52de41ed50eb6e280e2088cf/jars/libs/ssosdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencent.ilivesdk/ilivesdk/1.8.5/229e6f7f2b9bdef00d212d61aa62518e24716cce/ilivesdk-1.8.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

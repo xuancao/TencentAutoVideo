@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">msg</string>
+
+    <string name="chat_image">图片</string>
+    <string name="chat_photo">拍摄</string>
+    <string name="chat_video">小视频</string>
+    <string name="chat_file_too_large">文件过大，发送失败</string>
+    <string name="chat_file_not_exist">文件不存在，发送失败</string>
+    <string name="chat_image_preview_title">图片预览</string>
+    <string name="chat_image_preview_send">发送</string>
+    <string name="chat_image_preview_load_err">图片加载失败</string>
+    <string name="chat_image_preview_ori">原图发送</string>
+
+    <!-- time -->
+    <string name="time_yesterday">昨天</string>
+    <string name="time_day">日</string>
+    <string name="time_month">月</string>
+    <string name="time_year">年</string>
+
+    <!-- message -->
+    <string name="summary_image">[图片]</string>
+    <string name="save_exist">文件已存在</string>
+    <string name="save_succ">保存成功</string>
+    <string name="file_not_found">未找到文件，请稍后重试</string>
+    <string name="downloading">正在下载，请稍候</string>
+    <string name="download_fail">下载失败</string>
+    <string name="chat_content_bad">内容含有敏感词</string>
+
+
+
+
+
+
+
+</resources>

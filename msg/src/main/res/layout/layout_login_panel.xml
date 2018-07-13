@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/panel_ctrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ctrl_btn" />
+
+    <LinearLayout
+        android:id="@+id/ctrl_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGray"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/panel_account_text"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="#fff"
+                android:popupBackground="#fff"
+                android:spinnerMode="dropdown" />
+
+
+            <Button
+                android:id="@+id/panel_login_btn"
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:text="登录" />
+
+            <TextView
+                android:id="@+id/panel_login_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="未登录"
+                android:textColor="#f00" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/mic_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_mic_open" />
+
+                <TextView
+                    android:id="@+id/switch_cam"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/icon_switch_camera" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/room_id_text"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:hint="房间号"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/create_btn"
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:text="创建" />
+
+            <Button
+                android:id="@+id/join_btn"
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:text="加入" />
+
+            <Button
+                android:id="@+id/quit_btn"
+                android:layout_width="108dp"
+                android:layout_height="50dp"
+                android:text="退出" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

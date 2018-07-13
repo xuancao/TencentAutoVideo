@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/lugang/Downloads/demo_msg/msg/libs/imsdk.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/msg/libs/imsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

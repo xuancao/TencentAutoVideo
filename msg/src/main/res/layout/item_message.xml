@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true">
+    <TextView
+        android:id="@+id/systemMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:textColor="@color/text_gray2"
+        android:textSize="12sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/leftPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp">
+            <com.tencent.qcloud.ilivedemo.msg.view.CircleImageView
+                android:id="@+id/leftAvatar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/head_other"
+                android:layout_alignParentLeft="true"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/leftAvatar"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/sender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_gray1"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="12sp"
+                    android:text="name"/>
+                <RelativeLayout
+                    android:id="@+id/leftMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rightPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true">
+            <com.tencent.qcloud.ilivedemo.msg.view.CircleImageView
+                android:id="@+id/rightAvatar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/head_me"
+                android:layout_alignParentRight="true"/>
+            <RelativeLayout
+                android:id="@+id/rightMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:longClickable="true"
+                android:layout_toLeftOf="@id/rightAvatar"/>
+            <TextView
+                android:id="@+id/rightDesc"
+                android:layout_alignRight="@id/rightMessage"
+                android:layout_below="@id/rightMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:textSize="12sp"
+                android:textColor="@color/text_gray1"
+                android:visibility="gone"/>
+            <RelativeLayout
+                android:id="@+id/sendStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/rightMessage">
+                <ProgressBar
+                    android:id="@+id/sending"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"/>
+                <ImageView
+                    android:id="@+id/sendError"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_error"/>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

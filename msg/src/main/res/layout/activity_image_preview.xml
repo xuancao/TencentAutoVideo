@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.tencent.qcloud.ilivedemo.msg.view.TemplateTitle
+        android:id="@+id/imagePreviewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:titleText="@string/chat_image_preview_title"
+        app:moreText="@string/chat_image_preview_send"
+        app:canBack="true" />
+    <LinearLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_height="50dp">
+        <CheckBox
+            android:id="@+id/isOri"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#666666"
+            android:text="@string/chat_image_preview_ori"/>
+    </LinearLayout>
+</RelativeLayout>
